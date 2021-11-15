@@ -1,0 +1,20 @@
+{
+  "name": "entregaf",
+  "version": "1.0.0",
+  "description": "Entrega final web tugeder",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/_style.scss css/style.css"
+  },
+  "keywords": [
+    "sass",
+    "html",
+    "css",
+    "git"
+  ],
+  "author": "Maria Carrasquero",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

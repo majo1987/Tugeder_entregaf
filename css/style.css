@@ -1,0 +1,188 @@
+/*Reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Variables de color*/
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Estilos generales*/
+h1 {
+  color: #35a99f;
+  font-size: 2rem;
+  font-family: "Open-sans", sans-serif;
+}
+
+h2 {
+  color: #7c6fa7;
+  text-align: center;
+  padding: 1rem;
+}
+
+h3 {
+  color: #fab906;
+}
+
+h4 {
+  color: #fab906;
+  font-size: 1rem;
+  font-family: "Open-sans", sans-serif;
+}
+
+h5 {
+  color: #7c6fa7;
+}
+
+.container {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* Estilo de botones */
+.boton--banner {
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem 0.3rem;
+  border-width: 0px;
+  background-color: #7c6fa7;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row__indexblog {
+  background-color: #fab906;
+}
+.row__blogsection {
+  border-top: solid;
+  border-color: #7c6fa7;
+}
+
+.col {
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.col__banner {
+  text-align: left;
+  margin: 3rem;
+}
+
+texto--destacado {
+  font-weight: 100;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/*Estilo del banner*/
+.banner, .banner--blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner__home {
+  background-color: #fab906;
+}
+
+.image-banner {
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+/*Estilo de contactanos*/
+.image-contacto {
+  width: 70%;
+}
+
+/*Estilo del banner blog index */
+.banner--blog {
+  background-color: #7c6fa7;
+  padding: 3rem 3rem 5rem 3rem;
+}
+
+/* Estilo del navbar*/
+.navbar-dark {
+  background-color: #35a99f;
+}
+
+/*Estilo del footer*/
+.body__footer {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-color: #35a99f;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-list {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+/*Estilo de carrusel*/
+.carousel-bg {
+  background-color: #7c6fa7;
+}
+
+.title-carousel {
+  padding: 2rem;
+  text-align: center;
+}
+
+.carousel-blog {
+  width: 70%;
+}
+
+/* Media querys*/
+@media (min-width: 768px) {
+  .body__footer {
+    flex-direction: row;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .col {
+    width: 30%;
+  }
+
+  .banner, .banner--blog {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
